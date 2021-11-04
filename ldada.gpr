@@ -1,0 +1,4 @@
+project LdAda is
+    for Main use ("main");
+    for Source_Dirs use ("src");
+end LdAda;
