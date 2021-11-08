@@ -1,0 +1,11 @@
+name = "ldada"
+description = "Static ELF linker"
+version = "0.0.0"
+
+authors = ["Martin Schmidt", "Esteban Blanc", "Arthur Cohen"]
+maintainers = ["Martin Schmidt <martin.schmidt@epita.fr>", "Esteban Blanc <esteban.blanc@epita.fr>", "Arthur Cohen <cohenarthur.dev@gmail.com>"]
+maintainers-logins = ["n1tram1", "Skallwar", "CohenArthur"]
+
+executables = ["ldada"]
+[[depends-on]]  # Added by alr
+gnatcoll = "^22.0.0"  # Added by alr
