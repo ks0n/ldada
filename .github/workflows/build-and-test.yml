@@ -14,5 +14,5 @@ jobs:
     - name: Build project
       run: |
         sudo apt-get update
-        sudo apt-get install gprbuild gnat
-        gprbuild -p ldada.gpr
+        sudo apt-get install alire gprbuild gnat
+        alr build
