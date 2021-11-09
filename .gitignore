@@ -1,24 +1,7 @@
+# Ignore tags
 tags
-obj/
-lib/
-alire/
-config/
-obj/
-lib/
-alire/
-config/
-obj/
-lib/
-alire/
-config/
-obj/
-lib/
-alire/
-config/
-obj/
-lib/
-alire/
-config/
+
+# ALR generated files
 obj/
 lib/
 alire/
