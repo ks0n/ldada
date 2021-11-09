@@ -1,1 +1,9 @@
+# Ignore tags
 tags
+
+# ALR generated files
+obj/
+lib/
+alire/
+config/
+bin/
