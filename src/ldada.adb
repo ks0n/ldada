@@ -17,6 +17,8 @@ begin
     else
         for i in 1..Argument_Count loop
             input_object := Load(Argument(i));
+            Put_Line("input is valid elf: " & IsValid(input_object)'image);
+
             input_objects.Append(input_object);
         end loop;
 
@@ -24,6 +26,6 @@ begin
         --      Put_Line("maybe elf");
         --  end if;
 
-        Put_Line(input_objects'Image);
+        -- Put_Line(input_objects'Image);
     end if;
 end main;
